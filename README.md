@@ -8,7 +8,7 @@ By following the steps outlined below, you'll be able to create an environment s
 
 **PS: if you do not have an experience in AWS and want to contribute to the project send an email to [emil@havetomorrow.com](mailto:emil@havetomorrow.com?subject=[GitHub]%20Source%20Han%20Sans). we will consider providing you with the credentials needed to run the application.**
 
-## Table of content: 
+## Table of Contents: 
   - [Before you start](#before-you-start)
   - [Introduction](#introduction)
   - [Cloud Setup Instructions](#cloud-setup-instructions)
@@ -38,16 +38,16 @@ Make sure you have the following:
 
 1. An AWS account: You will need an AWS account to create and manage your cloud infrastructure.
 
-2. AWS CLI: Install the AWS Command Line Interface (CLI) on your local machine. You can find installation instructions [Here](https://aws.amazon.com/cli/).
+2. AWS CLI: Install the AWS Command Line Interface (CLI) on your local machine. You can find installation instructions [here](https://aws.amazon.com/cli/).
 
-3. Backend Repository: Clone the backend repository of the project to access the required Docker images for ECR. You can find the repository [Here](https://github.com/tomorrowbiostasis/Biostasis-Backend).
+3. Backend Repository: Clone the backend repository of the project to access the required Docker images for ECR. You can find the repository [here](https://github.com/tomorrowbiostasis/Biostasis-Backend).
 
 ## Introduction:
 
-you may ask yourself: **Why you need to build your own cloud infrastructure and external services?**
+You may be asking yourself, **Why do I need to build my own cloud infrastructure and external services?**
 
-we need those services to run our project and create the `.env` credentials for the [FrontEnd](https://github.com/tomorrowbiostasis/Biostasis-FrontEnd) and [BackendEnd](https://github.com/tomorrowbiostasis/Biostasis-Backend) applications to fully understand and test the whole functionality of our project. 
-However, You can also surpass those steps, but then you need to modify the code and the `.env` credentials to be able to run the project properly.
+We need those services to run our project and create the `.env` credentials for the [FrontEnd](https://github.com/tomorrowbiostasis/Biostasis-FrontEnd) and [BackendEnd](https://github.com/tomorrowbiostasis/Biostasis-Backend) applications to fully understand and test the whole functionality of our project. 
+However, you can also skip those steps, but then you need to modify the code and the `.env` credentials to be able to run the project properly.
 
 ## Cloud Setup Instructions
 
@@ -222,7 +222,7 @@ That's it! You have now successfully set up the external services required for o
 
 ## Conclusion:
 
-Congratulations! You have successfully set up your own cloud infrastructure using various **AWS** services. In addition, you setup **Mailjet** and **Twilio** to be able to send emails and sms messages. 
+Congratulations! You have successfully set up your own cloud infrastructure using various **AWS** services. In addition, you setup **Mailjet** and **Twilio** to be able to send emails and SMS messages. 
 
 You can now start using the infrastructure for the project and make any necessary customizations. If you encounter any issues or have any questions, refer to the documentation or add your question on the discussion page of this repository.
 
